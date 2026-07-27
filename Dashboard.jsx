@@ -3,7 +3,7 @@ import React from "react";
 const Dashboard = () => {
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Dashboard</h1>
+      <h1>Developer Dashboard</h1>
 
       <div style={styles.cardContainer}>
         <div style={styles.card}>
@@ -41,11 +41,7 @@ const styles = {
     textAlign: "center",
     marginBottom: "30px",
   },
-  cardContainer: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-    gap: "20px",
-  },
+ 
   card: {
     backgroundColor: "#ffffff",
     padding: "20px",
