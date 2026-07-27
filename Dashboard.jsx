@@ -41,11 +41,7 @@ const styles = {
     textAlign: "center",
     marginBottom: "30px",
   },
-  cardContainer: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-    gap: "20px",
-  },
+ 
   card: {
     backgroundColor: "#ffffff",
     padding: "20px",
